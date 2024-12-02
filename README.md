@@ -7,7 +7,7 @@ This GitHub Action automatically reviews pull requests using OpenAI's GPT-4 API.
 Add this to your workflow:
 
 ```yaml
-- uses: your-username/pr-reviewer@v1
+- uses: thebstar/pr-reviewer@v1
   with:
     openai-api-key: ${{ secrets.OPENAI_API_KEY }}
     # Optional: specify a different model
